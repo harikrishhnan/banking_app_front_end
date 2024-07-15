@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-image: url('banking-background.jpeg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2em;
+    width:500px;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+    padding: 2px;
+}
+
+input, select, button {
+    font-size: 1em;
+    padding: 2px;
+    width: 100%;
+    padding: .5em;
+    margin-top: .2em;
+}
+
+button {
+    background: rgb(101, 101, 101);
+    color: white;
+    border: none;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
